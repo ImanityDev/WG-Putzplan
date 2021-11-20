@@ -1,0 +1,28 @@
+{
+  "name": "putzplanapi",
+  "version": "1.0.0",
+  "description": "API for Putzplan DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madv0x/WG-Putzplan.git"
+  },
+  "keywords": [
+    "Putzplan"
+  ],
+  "author": "Maurice Dupont",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madv0x/WG-Putzplan/issues"
+  },
+  "homepage": "https://github.com/Madv0x/WG-Putzplan#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
